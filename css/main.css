@@ -61,7 +61,7 @@ body{
   width: 100%;
   height: 180px;
   padding: 20px 10px 0px 35px;
-  margin-left: 10px;
+  margin-left: 7px;
   background-image: url(../img/portada.jpg);
   background-repeat: no-repeat; 
   border-radius: 5px 10px; 
@@ -134,7 +134,10 @@ body{
 #origen:hover{
   filter: grayscale(60%);
   color: transparent;
-  border: transparent;
+  border: 0px;
+}
+#origen:focus, #extincion, #restaurando {
+outline:0px;
 }
 
 #extincion{
